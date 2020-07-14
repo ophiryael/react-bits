@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { StrictVsRegularMode } from './strict-vs-regular-mode/StrictVsRegularMode';
+import { ParentContainer } from './child-to-sibling-child-portal/ParentContainer';
 
-ReactDOM.render(<StrictVsRegularMode />, document.getElementById('root'));
+ReactDOM.render(<ParentContainer />, document.getElementById('root'));
