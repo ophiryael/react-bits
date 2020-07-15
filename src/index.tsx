@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { ParentContainer } from './child-to-sibling-child-portal/ParentContainer';
+import { ProfilerApiOutput } from './profiler-api-output/ProfilerApiOutput';
 
-ReactDOM.render(<ParentContainer />, document.getElementById('root'));
+ReactDOM.render(<ProfilerApiOutput />, document.getElementById('root'));
