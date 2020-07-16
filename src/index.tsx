@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { ProfilerApiOutput } from './profiler-api-output/ProfilerApiOutput';
+import { App } from './App';
 
-ReactDOM.render(<ProfilerApiOutput />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

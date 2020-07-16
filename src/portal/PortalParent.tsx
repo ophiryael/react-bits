@@ -12,7 +12,7 @@ const Container = styled('div')`
   }
 `;
 
-export const ParentContainer: React.FC = () => {
+export const PortalParent: React.FC = () => {
   const [clickCount, setClickCount] = useState(0);
   const [regularChildEl, setRegularChildEl] = useState<HTMLDivElement | null>(null);
 
