@@ -4,11 +4,13 @@ import { NavMenu } from './navigation/NavMenu';
 import { AppRoutes } from './navigation/AppRoutes';
 import { AppRoute } from './navigation/interfaces';
 import { PortalParent } from './portal/PortalParent';
+import { HelloThere } from './code-splitting/HelloThere';
 import { ProfilerApiOutput } from './profiler-api-output/ProfilerApiOutput';
 import { StrictVsRegularMode } from './strict-vs-regular-mode/StrictVsRegularMode';
 
 const routes: AppRoute[] = [
   { path: '/portal', name: 'Portal', Component: PortalParent },
+  { path: '/code-splitting', name: 'Code Splitting', Component: HelloThere },
   { path: '/profiler-api-output', name: 'Profiler API Output', Component: ProfilerApiOutput },
   { path: '/strict-vs-regular-mode', name: 'Strict vs Regular Mode', Component: StrictVsRegularMode },
 ];
