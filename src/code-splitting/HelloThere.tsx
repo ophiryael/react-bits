@@ -1,6 +1,7 @@
 import React, { useState, Suspense } from 'react';
 import styled from 'styled-components';
 import { Spinner } from './Spinner';
+import { ErrorBoundary } from './ErrorBoundary';
 
 const Container = styled('div')`
   margin: 25px;
@@ -28,9 +29,11 @@ export const HelloThere: React.FC = () => {
       <div>
         Hello there...
         {isResponseVisible && (
-          <Suspense fallback={<Spinner />}>
-            <GeneralKenobi />
-          </Suspense>
+          <ErrorBoundary>
+            <Suspense fallback={<Spinner />}>
+              <GeneralKenobi />
+            </Suspense>
+          </ErrorBoundary>
         )}
       </div>
     </Container>
