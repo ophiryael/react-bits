@@ -1,6 +1,6 @@
 import React, { useState, Suspense } from 'react';
 import styled from 'styled-components';
-import { Spinner } from './Spinner';
+import { Spinner } from '../common/Spinner';
 import { ErrorBoundary } from './ErrorBoundary';
 
 const Container = styled('div')`
