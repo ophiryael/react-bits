@@ -9,6 +9,7 @@ import { DebugValueHook } from './debug-value-hook/DebugValueHook';
 import { ProfilerApiOutput } from './profiler-api-output/ProfilerApiOutput';
 import { StrictVsRegularMode } from './strict-vs-regular-mode/StrictVsRegularMode';
 import { ImperativeHandleHook } from './imperative-handle-hook/ImperativeHandleHook';
+import { LayoutVsRegularEffect } from './layout-vs-regular-effect/LayoutVsRegularEffect';
 
 const routes: AppRoute[] = [
   { path: '/portal', name: 'Portal', Component: PortalParent },
@@ -17,6 +18,7 @@ const routes: AppRoute[] = [
   { path: '/profiler-api-output', name: 'Profiler API Output', Component: ProfilerApiOutput },
   { path: '/use-imperative-handle', name: 'Use Imperative Handle', Component: ImperativeHandleHook },
   { path: '/strict-vs-regular-mode', name: 'Strict vs Regular Mode', Component: StrictVsRegularMode },
+  { path: '/layout-vs-regular-effect', name: 'Layout vs Regular Effect', Component: LayoutVsRegularEffect },
 ];
 
 export const App = () => (
