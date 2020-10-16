@@ -1,0 +1,1 @@
+{"version":3,"sources":["code-splitting/GeneralKenobi.tsx"],"names":["GeneralKenobi"],"mappings":"+GAAA,2BAIeA,UAFiB,kBAAM","file":"static/js/3.0812b69d.chunk.js","sourcesContent":["import React from 'react';\n\nconst GeneralKenobi: React.FC = () => <span>General Kenobi</span>;\n\nexport default GeneralKenobi;\n"],"sourceRoot":""}

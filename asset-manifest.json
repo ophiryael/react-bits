@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-bits/static/css/main.7a216d56.chunk.css",
+    "main.js": "/react-bits/static/js/main.ab1ee5d3.chunk.js",
+    "main.js.map": "/react-bits/static/js/main.ab1ee5d3.chunk.js.map",
+    "runtime-main.js": "/react-bits/static/js/runtime-main.06e9156d.js",
+    "runtime-main.js.map": "/react-bits/static/js/runtime-main.06e9156d.js.map",
+    "static/js/2.2be03a4f.chunk.js": "/react-bits/static/js/2.2be03a4f.chunk.js",
+    "static/js/2.2be03a4f.chunk.js.map": "/react-bits/static/js/2.2be03a4f.chunk.js.map",
+    "static/js/3.0812b69d.chunk.js": "/react-bits/static/js/3.0812b69d.chunk.js",
+    "static/js/3.0812b69d.chunk.js.map": "/react-bits/static/js/3.0812b69d.chunk.js.map",
+    "index.html": "/react-bits/index.html",
+    "precache-manifest.23b75fd7a59ac4a57131497ea171357b.js": "/react-bits/precache-manifest.23b75fd7a59ac4a57131497ea171357b.js",
+    "service-worker.js": "/react-bits/service-worker.js",
+    "static/css/main.7a216d56.chunk.css.map": "/react-bits/static/css/main.7a216d56.chunk.css.map",
+    "static/js/2.2be03a4f.chunk.js.LICENSE.txt": "/react-bits/static/js/2.2be03a4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06e9156d.js",
+    "static/js/2.2be03a4f.chunk.js",
+    "static/css/main.7a216d56.chunk.css",
+    "static/js/main.ab1ee5d3.chunk.js"
+  ]
+}
